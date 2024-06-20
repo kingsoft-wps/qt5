@@ -1,26 +1,26 @@
 [submodule "qtbase"]
 	path = qtbase
 	url = ../qtbase.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = essential
 [submodule "qtsvg"]
 	depends = qtbase
 	path = qtsvg
 	url = ../qtsvg.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qtdeclarative"]
 	depends = qtbase
 	recommends = qtsvg
 	path = qtdeclarative
 	url = ../qtdeclarative.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = essential
 [submodule "qtactiveqt"]
 	depends = qtbase
 	path = qtactiveqt
 	url = ../qtactiveqt.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qtscript"]
 	depends = qtbase
@@ -34,27 +34,27 @@
 	recommends = qtdeclarative
 	path = qtmultimedia
 	url = ../qtmultimedia.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = essential
 [submodule "qttools"]
 	depends = qtbase
 	recommends = qtdeclarative qtactiveqt
 	path = qttools
 	url = ../qttools.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = essential
 [submodule "qtxmlpatterns"]
 	depends = qtbase
 	recommends = qtdeclarative
 	path = qtxmlpatterns
 	url = ../qtxmlpatterns.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qttranslations"]
 	depends = qttools
 	path = qttranslations
 	url = ../qttranslations.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = essential
 	priority = 30
 [submodule "qtdoc"]
@@ -143,13 +143,13 @@
 	depends = qtbase
 	path = qtimageformats
 	url = ../qtimageformats.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qtgraphicaleffects"]
 	depends = qtdeclarative
 	path = qtgraphicaleffects
 	url = ../qtgraphicaleffects.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qtquickcontrols"]
 	depends = qtdeclarative
@@ -174,20 +174,20 @@
 	depends = qtbase
 	path = qtx11extras
 	url = ../qtx11extras.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qtmacextras"]
 	depends = qtbase
 	path = qtmacextras
 	url = ../qtmacextras.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qtwinextras"]
 	depends = qtbase
 	recommends = qtdeclarative qtmultimedia
 	path = qtwinextras
 	url = ../qtwinextras.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = addon
 [submodule "qtandroidextras"]
 	depends = qtbase
@@ -235,7 +235,7 @@
 	recommends = qtimageformats
 	path = qtquickcontrols2
 	url = ../qtquickcontrols2.git
-	branch = 5.12.12
+	branch = 5.12.12-kso
 	status = essential
 [submodule "qtpurchasing"]
 	depends = qtbase
